@@ -20,7 +20,7 @@ fn main() {
   let pcap_fn = match env::args().nth(1) {
     Some(n) => n,
     None => {
-      writeln!(io::stderr(), "USAGE: ja3 <PCAP FILENAME>").unwrap();
+      writeln!(io::stderr(), "USAGE: pcap_fun <PCAP FILENAME>").unwrap();
       process::exit(1);
     },
   };
