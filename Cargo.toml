@@ -1,0 +1,10 @@
+[package]
+name = "pcap_fun"
+version = "0.1.0"
+authors = ["ak"]
+
+[dependencies]
+pcap = { version = "0.7"}
+
+[dependencies.pnet]
+version = "0.21.0"
